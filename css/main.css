@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.window-search {
+  width: 30%;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: inline;
+  width: 116px;
+  height: 116px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+ul>li>a {
+  width: 50%;
+  height: 50%;
+}
