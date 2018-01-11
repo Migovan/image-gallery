@@ -6,11 +6,11 @@
     <link rel = "stylesheet" href="css/main.css">
   </head>
   <body>
-    <p><input type="range" step="20" value="100">
+    <p><input type="range" id="range" min="0" max="200" step="20" value="200" oninput="sliderChange(this.value)">
       <input class="window-search" type="text" onkeyup="myFunction()" id="myInput" placeholder="searh..."></p>
     <ul>
-      <li><a href = "#"><img src="img/6Smj0OfjHgw.jpg">Артем</a></li>
-      <li><a href = "#"><img src="img/Acgdl6BuPQ.jpg">Алексей</a></li>
+      <li><a href = "#"><img src="img/6Smj0OfjHgw.jpg" id="image">Артем</a></li>
+      <li><a href = "#"><img src="img/Acgdl6BuPQ.jpg" id="image1">Алексей</a></li>
       <li><a href = "#"><img src="img/mf93vefim3w.jpg">Вадим</a></li>
       <li><a href = "#"><img src="img/nastya.jpg">Владимир</a></li>
       <li><a href = "#"><img src="img/oPuH3kHJT3Q.jpg">Борис</a></li>
@@ -21,6 +21,7 @@
       <li><a href = "#"><img src="img/ymhEOdwRViM.jpg">Ольга</a></li>
       <li><a href = "#"><img src="img/zhenya.jpg">Алена</a></li>
     </ul>
-<script src = "main.js"></script>
+<script src = "filter.js"></script>
+<script src = "slider.js"></script>
   </body>
 </html>
