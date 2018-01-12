@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-.window-search {
+#myInput {
   width: 30%;
 }
 
@@ -45,4 +45,5 @@ ul {
 ul>li>a {
   width: 100px;
   height: 50px;
+  /*background-image: url(../img/6Smj0OfjHgw.jpg);*/
 }
